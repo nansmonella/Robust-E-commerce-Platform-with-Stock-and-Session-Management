@@ -1,18 +1,11 @@
 
 import psycopg2
 from seller import Seller
-# from config import read_config
 from messages import *
 import configparser
 import uuid
 import datetime
 import sys
-
-
-"""
-    Splits given command string by spaces and trims each token.
-    Returns token list.
-"""
 
 
 def tokenize_command(command):
